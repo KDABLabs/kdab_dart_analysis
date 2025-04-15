@@ -1,0 +1,7 @@
+analyzer:
+  #language: TODO
+  #errors: TODO
+  #exclude: TODO
+
+linter:
+  # rules: TODO

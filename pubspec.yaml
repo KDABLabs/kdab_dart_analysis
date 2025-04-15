@@ -1,0 +1,9 @@
+name: kdab_dart_analysis
+version: 0.0.1
+description: description # TODO
+repository: https://github.com/KDABLabs/kdab_dart_analysis
+topics: [lints, analyzer, analysis]
+publish_to: none # TODO
+
+environment:
+  sdk: ^3.7.2
