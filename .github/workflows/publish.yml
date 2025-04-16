@@ -18,4 +18,4 @@ jobs:
       - name: Install dependencies
         run: dart pub get
       - name: Publish
-        run: flutter pub publish --force
+        run: dart pub publish --force
