@@ -6,4 +6,4 @@ topics: [lints, analyzer, analysis]
 publish_to: none # TODO
 
 environment:
-  sdk: ^3.7.2
+  sdk: ^3.6.0
