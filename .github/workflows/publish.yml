@@ -9,22 +9,13 @@ on:
 jobs:
   release:
     permissions:
-      contents: write
-      pull-requests: write
       id-token: write
 
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
       - uses: dart-lang/setup-dart@v1
-        with:
-          sdk: stable
-      - uses: subosito/flutter-action@v2
-        with:
-          channel: 'stable' 
-
       - name: Install dependencies
-        run: flutter pub get
-
+        run: dart pub get
       - name: Publish
         run: flutter pub publish --force
