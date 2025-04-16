@@ -3,7 +3,6 @@ version: 0.0.1
 description: Analysis options used for Dart and Flutter at KDAB.
 repository: https://github.com/KDABLabs/kdab_dart_analysis
 topics: [lints, analyzer, analysis]
-publish_to: none # TODO
 
 environment:
   sdk: ^3.6.0
