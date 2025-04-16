@@ -1,1 +1,2 @@
+/// KDAB analysis options.
 library;
