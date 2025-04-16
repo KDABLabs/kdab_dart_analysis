@@ -20,11 +20,8 @@ linter:
     always_declare_return_types: true
     # https://dart.dev/tools/linter-rules/always_put_required_named_parameters_first
     always_put_required_named_parameters_first: true
-
-    # Is not nice when importing sibling files.
     # https://dart.dev/tools/linter-rules/always_use_package_imports
     always_use_package_imports: false
-
     # https://dart.dev/tools/linter-rules/annotate_overrides
     annotate_overrides: true
     # https://dart.dev/tools/linter-rules/avoid_bool_literals_in_conditional_expressions
@@ -53,11 +50,8 @@ linter:
     avoid_init_to_null: true
     # https://dart.dev/tools/linter-rules/avoid_multiple_declarations_per_line
     avoid_multiple_declarations_per_line: true
-
-    # TODO: not sure about this one.
     # https://dart.dev/tools/linter-rules/avoid_positional_boolean_parameters
     avoid_positional_boolean_parameters: true
-
     # https://dart.dev/tools/linter-rules/avoid_print
     avoid_print: true
     # https://dart.dev/tools/linter-rules/avoid_private_typedef_functions
@@ -74,11 +68,8 @@ linter:
     avoid_returning_null_for_void: true
     # https://dart.dev/tools/linter-rules/avoid_returning_this
     avoid_returning_this: true
-    
-    # TODO: Not sure about this sometimes you want a setter but not a getter ?
     # https://dart.dev/tools/linter-rules/avoid_setters_without_getters
     avoid_setters_without_getters: true
-
     # https://dart.dev/tools/linter-rules/avoid_shadowing_type_parameters
     avoid_shadowing_type_parameters: true
     # https://dart.dev/tools/linter-rules/avoid_single_cascade_in_expression_statements
@@ -145,11 +136,8 @@ linter:
     exhaustive_cases: true
     # https://dart.dev/tools/linter-rules/file_names
     file_names: true
-
-    # This seems very useful not sure why it is disabled in most of our projects.
     # https://dart.dev/tools/linter-rules/flutter_style_todos
     flutter_style_todos: true
-
     # https://dart.dev/tools/linter-rules/hash_and_equals
     hash_and_equals: true
     # https://dart.dev/tools/linter-rules/implicit_call_tearoffs
@@ -170,11 +158,8 @@ linter:
     library_prefixes: true
     # https://dart.dev/tools/linter-rules/library_private_types_in_public_api
     library_private_types_in_public_api: true
-
-    # Allow longer dart lines.
     # https://dart.dev/tools/linter-rules/lines_longer_than_80_chars
     lines_longer_than_80_chars: false
-
     # https://dart.dev/tools/linter-rules/literal_only_boolean_expressions
     literal_only_boolean_expressions: true
     # https://dart.dev/tools/linter-rules/missing_code_block_language_in_doc_comment
@@ -183,11 +168,8 @@ linter:
     missing_whitespace_between_adjacent_strings: true
     # https://dart.dev/tools/linter-rules/no_adjacent_strings_in_list
     no_adjacent_strings_in_list: true
-
-    # TODO: not sure about this one.
     # https://dart.dev/tools/linter-rules/no_default_cases
-    no_default_cases: true
-    
+    no_default_cases: false
     # https://dart.dev/tools/linter-rules/no_duplicate_case_values
     no_duplicate_case_values: true
     # https://dart.dev/tools/linter-rules/no_leading_underscores_for_library_prefixes
@@ -210,11 +192,8 @@ linter:
     null_check_on_nullable_type_parameter: true
     # https://dart.dev/tools/linter-rules/null_closures
     null_closures: true
-
-    # TODO: discuss this one.
     # https://dart.dev/tools/linter-rules/omit_local_variable_types
     omit_local_variable_types: true
-
     # https://dart.dev/tools/linter-rules/one_member_abstracts
     one_member_abstracts: false
     # https://dart.dev/tools/linter-rules/only_throw_errors
@@ -231,11 +210,8 @@ linter:
     prefer_asserts_in_initializer_lists: true
     # https://dart.dev/tools/linter-rules/prefer_asserts_with_message
     prefer_asserts_with_message: true
-
-    # TODO: discuss this one.
     # https://dart.dev/tools/linter-rules/prefer_collection_literals
     prefer_collection_literals: true
-
     # https://dart.dev/tools/linter-rules/prefer_conditional_assignment
     prefer_conditional_assignment: true
     # https://dart.dev/tools/linter-rules/prefer_const_constructors
@@ -250,11 +226,8 @@ linter:
     prefer_constructors_over_static_methods: true
     # https://dart.dev/tools/linter-rules/prefer_contains
     prefer_contains: true
-
-    # TODO: not sure about this one.
     # https://dart.dev/tools/linter-rules/prefer_expression_function_bodies
     prefer_expression_function_bodies: true
-
     # https://dart.dev/tools/linter-rules/prefer_final_fields
     prefer_final_fields: true
     # https://dart.dev/tools/linter-rules/prefer_final_in_for_each
@@ -317,11 +290,8 @@ linter:
     slash_for_doc_comments: true
     # https://dart.dev/tools/linter-rules/sort_child_properties_last
     sort_child_properties_last: true
-
-    # Final properties then constructor
     # https://dart.dev/tools/linter-rules/sort_constructors_first
     sort_constructors_first: false
-
     # https://dart.dev/tools/linter-rules/sort_pub_dependencies
     sort_pub_dependencies: true
     # https://dart.dev/tools/linter-rules/sort_unnamed_constructors_first
