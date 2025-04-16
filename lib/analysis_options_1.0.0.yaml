@@ -172,82 +172,93 @@ linter:
     library_private_types_in_public_api: true
 
     # Allow longer dart lines.
-    # https://dart.dev/tools/linter-rules/
+    # https://dart.dev/tools/linter-rules/lines_longer_than_80_chars
     lines_longer_than_80_chars: false
 
-    # https://dart.dev/tools/linter-rules/
+    # https://dart.dev/tools/linter-rules/literal_only_boolean_expressions
     literal_only_boolean_expressions: true
-    # https://dart.dev/tools/linter-rules/
+    # https://dart.dev/tools/linter-rules/missing_code_block_language_in_doc_comment
     missing_code_block_language_in_doc_comment: true
-    # https://dart.dev/tools/linter-rules/
+    # https://dart.dev/tools/linter-rules/missing_whitespace_between_adjacent_strings
     missing_whitespace_between_adjacent_strings: true
-    # https://dart.dev/tools/linter-rules/
+    # https://dart.dev/tools/linter-rules/no_adjacent_strings_in_list
     no_adjacent_strings_in_list: true
-    # https://dart.dev/tools/linter-rules/
+
+    # TODO: not sure about this one.
+    # https://dart.dev/tools/linter-rules/no_default_cases
     no_default_cases: true
-    # https://dart.dev/tools/linter-rules/
+    
+    # https://dart.dev/tools/linter-rules/no_duplicate_case_values
     no_duplicate_case_values: true
-    # https://dart.dev/tools/linter-rules/
+    # https://dart.dev/tools/linter-rules/no_leading_underscores_for_library_prefixes
     no_leading_underscores_for_library_prefixes: true
-    # https://dart.dev/tools/linter-rules/
+    # https://dart.dev/tools/linter-rules/no_leading_underscores_for_local_identifiers
     no_leading_underscores_for_local_identifiers: true
-    # https://dart.dev/tools/linter-rules/
+    # https://dart.dev/tools/linter-rules/no_logic_in_create_state
     no_logic_in_create_state: true
-    # https://dart.dev/tools/linter-rules/
+    # https://dart.dev/tools/linter-rules/no_runtimeType_toString
     no_runtimeType_toString: true
-    # https://dart.dev/tools/linter-rules/
+    # https://dart.dev/tools/linter-rules/no_self_assignments
     no_self_assignments: true
-    # https://dart.dev/tools/linter-rules/
+    # https://dart.dev/tools/linter-rules/no_wildcard_variable_uses
     no_wildcard_variable_uses: true
-    # https://dart.dev/tools/linter-rules/
+    # https://dart.dev/tools/linter-rules/non_constant_identifier_names
     non_constant_identifier_names: true
-    # https://dart.dev/tools/linter-rules/
+    # https://dart.dev/tools/linter-rules/noop_primitive_operations
     noop_primitive_operations: true
-    # https://dart.dev/tools/linter-rules/
+    # https://dart.dev/tools/linter-rules/null_check_on_nullable_type_parameter
     null_check_on_nullable_type_parameter: true
-    # https://dart.dev/tools/linter-rules/
+    # https://dart.dev/tools/linter-rules/null_closures
     null_closures: true
-    # https://dart.dev/tools/linter-rules/
+
+    # TODO: discuss this one.
+    # https://dart.dev/tools/linter-rules/omit_local_variable_types
     omit_local_variable_types: true
+
     # https://dart.dev/tools/linter-rules/one_member_abstracts
     one_member_abstracts: false
-    # https://dart.dev/tools/linter-rules/
+    # https://dart.dev/tools/linter-rules/only_throw_errors
     only_throw_errors: true
-    # https://dart.dev/tools/linter-rules/
+    # https://dart.dev/tools/linter-rules/overridden_fields
     overridden_fields: true
-    # https://dart.dev/tools/linter-rules/
+    # https://dart.dev/tools/linter-rules/package_names
     package_names: true
-    # https://dart.dev/tools/linter-rules/
+    # https://dart.dev/tools/linter-rules/parameter_assignments
     parameter_assignments: true
-    # https://dart.dev/tools/linter-rules/
+    # https://dart.dev/tools/linter-rules/prefer_adjacent_string_concatenation
     prefer_adjacent_string_concatenation: true
-    # https://dart.dev/tools/linter-rules/
+    # https://dart.dev/tools/linter-rules/prefer_asserts_in_initializer_lists
     prefer_asserts_in_initializer_lists: true
-    # https://dart.dev/tools/linter-rules/
+    # https://dart.dev/tools/linter-rules/prefer_asserts_with_message
     prefer_asserts_with_message: true
-    # https://dart.dev/tools/linter-rules/
+
+    # TODO: discuss this one.
+    # https://dart.dev/tools/linter-rules/prefer_collection_literals
     prefer_collection_literals: true
-    # https://dart.dev/tools/linter-rules/
+    # https://dart.dev/tools/linter-rules/prefer_conditional_assignment
     prefer_conditional_assignment: true
-    # https://dart.dev/tools/linter-rules/
+    # https://dart.dev/tools/linter-rules/prefer_const_constructors
     prefer_const_constructors: true
-    # https://dart.dev/tools/linter-rules/
+    # https://dart.dev/tools/linter-rules/prefer_const_constructors_in_immutables
     prefer_const_constructors_in_immutables: true
-    # https://dart.dev/tools/linter-rules/
+    # https://dart.dev/tools/linter-rules/prefer_const_declarations
     prefer_const_declarations: true
-    # https://dart.dev/tools/linter-rules/
+    # https://dart.dev/tools/linter-rules/prefer_const_literals_to_create_immutables
     prefer_const_literals_to_create_immutables: true
-    # https://dart.dev/tools/linter-rules/
+    # https://dart.dev/tools/linter-rules/prefer_constructors_over_static_methods
     prefer_constructors_over_static_methods: true
-    # https://dart.dev/tools/linter-rules/
+    # https://dart.dev/tools/linter-rules/prefer_contains
     prefer_contains: true
-    # https://dart.dev/tools/linter-rules/
+
+    # TODO: not sure about this one.
+    # https://dart.dev/tools/linter-rules/prefer_expression_function_bodies
     prefer_expression_function_bodies: true
-    # https://dart.dev/tools/linter-rules/
+
+    # https://dart.dev/tools/linter-rules/prefer_final_fields
     prefer_final_fields: true
-    # https://dart.dev/tools/linter-rules/
+    # https://dart.dev/tools/linter-rules/prefer_final_in_for_each
     prefer_final_in_for_each: true
-    # https://dart.dev/tools/linter-rules/
+    # https://dart.dev/tools/linter-rules/prefer_final_locals
     prefer_final_locals: true
     # https://dart.dev/tools/linter-rules/
     prefer_for_elements_to_map_fromIterable: true
