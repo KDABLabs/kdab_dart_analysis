@@ -1,10 +1,10 @@
-name: kdab_dart_analysis_example
-version: 0.0.1
-publish_to: none
+name: example
+description: A starting point for Dart libraries or applications.
+version: 1.0.0
 
 environment:
-  sdk: ">=2.18.0 <3.0.0"
+  sdk: ^3.7.2
 
-dependencies:
+dev_dependencies:
   kdab_dart_analysis:
     path: ../
