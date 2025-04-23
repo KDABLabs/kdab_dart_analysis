@@ -137,7 +137,7 @@ linter:
     # https://dart.dev/tools/linter-rules/file_names
     file_names: true
     # https://dart.dev/tools/linter-rules/flutter_style_todos
-    flutter_style_todos: true
+    flutter_style_todos: false
     # https://dart.dev/tools/linter-rules/hash_and_equals
     hash_and_equals: true
     # https://dart.dev/tools/linter-rules/implicit_call_tearoffs
